@@ -1,0 +1,28 @@
+.heading {
+    text-align: center;
+}
+.signupContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.signupContainer > input {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.signupContainer > button {
+    background-color: rgb(53, 53, 195);
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+}
+
